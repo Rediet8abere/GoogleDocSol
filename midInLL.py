@@ -114,6 +114,9 @@ ll = LinkedList([1, 2, 3, 4, 5])
 # print("ll: ", ll)
 
 def middleitem(ll):
+    """ Running-Time: O(n)
+        Space: O(1) if len of ll is odd or O(2) if len of ll is even
+    """
     print("ll: ", ll)
     mid = ll.length()//2
     cur_node = ll.head #starting head
